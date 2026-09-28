@@ -60,7 +60,7 @@ function RecommendationCard({ recommendation }) {
               </h3>
 
               <span className="text-2xl font-bold text-primary-600 whitespace-nowrap">
-                ₹{product.price.toFixed(2)}
+                ${product.price.toFixed(2)}
               </span>
 
             </div>
@@ -298,7 +298,7 @@ function Recommendations() {
           </p>
 
           <p className="text-xl font-bold text-slate-800">
-            ₹{userProfile.totalSpent.toFixed(2)}
+            ${userProfile.totalSpent.toFixed(2)}
           </p>
 
         </div>
@@ -492,8 +492,7 @@ function Recommendations() {
 
               {selectedMethod === 'All'
                 ? `Top ${filteredRecommendations.length} Recommendations for You`
-                : `${selectedMethod} Recommendations`
-              }
+                : `${selectedMethod} Recommendations`}
 
             </h3>
 
