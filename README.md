@@ -286,7 +286,4 @@ Academic Project - For educational purposes only
 
 This is an academic project. For questions or suggestions, please contact the team.
 
----
 
-**Built with ❤️ by Team Alpha**  
-*Dept. of Computer Science & Engineering*
